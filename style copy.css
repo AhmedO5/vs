@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+h1{
+    color:  #66BFBF;
+    font-size: 5.625rem;
+    line-height: 2;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color:  #66BFBF;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div {
+    background-color: #E4F9F5;
+}
+
+
+/* CLASSES */
+.top-container {
+    background-color: #E4F9F5;
+    display: block;
+    position: relative;
+    padding-top: 100px;
+}
+.notset {
+
+    display: block;
+    height: 500px;
+    background-color: blueviolet;
+
+}
+.ns {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pro {
+    text-decoration: underline;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
+.profile-pic {
+    height: 200;
+    width: 200;
+}
+
+.disclamer {
+    color: red;
+}
+.footer-linkig {
+    color: #11999E;
+}
+.skill-row {
+    width: 50%;
+    margin: auto;
+}
+.skills {
+    margin: 100px;
+}
