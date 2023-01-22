@@ -25,9 +25,18 @@ h3 {
 }
 
 div {
-    background-color: #E4F9F5;
+    background-color: white;
+    display: block;
+    position: relative;
 }
 
+
+hr {
+    
+    border: none;
+    border-top: 10px dotted #EAF6F6;
+    width: 10%;
+}
 
 /* CLASSES */
 .top-container {
@@ -36,13 +45,7 @@ div {
     position: relative;
     padding-top: 100px;
 }
-.notset {
 
-    display: block;
-    height: 500px;
-    background-color: blueviolet;
-
-}
 .ns {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -75,7 +78,48 @@ div {
 .skill-row {
     width: 50%;
     margin: auto;
+    margin-bottom: 200px;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%;
+  
+  
+
+}
+.pistol-img {
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+    border-radius: 50%;
+    
+
+
+}
+
+.project-img {
+    width: 25%;
+    border-radius: 50%;
+
+
+}
+
+.skill-text {
+    color:  #66BFBF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
 }
 .skills {
-    margin: 100px;
+    margin-top: 100px;
+}
+.bottom-container {
+    background-color: #11999E
+}
+.projects {
+    margin: auto;
 }
